@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        JWT Token Value: <span id="jwtTokenValue"></span>
+    </h1>
+    <h2>Get User Details</h2>
+    <button onclick="getUserDetails()">Get User Details</button>
+    <h3>User Details</h3>
+    <p id="userDetails"></p>
+    <h1>First Name: <span id="firstName"></span></h1>
+    <h1>Change firstName</h1>
+    <input type="text" id="newFirstName">
+    <button onclick="changeFirstName()">Change First Name</button>
+</html>
